@@ -1,0 +1,56 @@
+<app-narvar></app-narvar>
+
+<div class="container mt-4">
+    <h2>{{ unidad.NombrePropiedad }}</h2>
+
+  
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Tipo de Unidad</h3>
+                    <h5>{{ unidad.TipoPropiedad }}</h5>
+                    <img src="../../../assets/img/Casita.jpeg" class="card-img-top img-fluid img-pequena">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Precio</h3>
+                    <p>Se utiliza el Peso Mexicano</p>
+                    <h5>$ {{unidad.PrecioPorNoche}} MXN</h5>
+                    <div #paypal></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Descripción:</h3>
+                    <p>{{ unidad.Descripcion }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Ubicación</h3>
+                    <p>{{ unidad.DireccionID }}</p>
+                    <P>{{du.ID}}</P>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Terreneitor. Todos los derechos reservados.</p>
+</footer>

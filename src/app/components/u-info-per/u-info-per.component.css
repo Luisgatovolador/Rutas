@@ -1,0 +1,65 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px; /* Tamaño base de la fuente */
+  }
+  
+  /* Estilos para el contenedor de fondo */
+  .background-container {
+    font-family: Arial, sans-serif;
+    background-image: url('../../../assets/img/imformacion.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    position: relative;
+  }
+  
+  /* Estilos para el contenido */
+  .container {
+    padding-top: 20px; /* Espacio superior para separar del borde */
+    padding-bottom: 60px; /* Altura del footer */
+    min-height: 100vh; /* Altura mínima del contenido */
+  }
+  
+  /* Estilos para el formulario */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  /* Estilos para los inputs */
+  .form-control {
+    font-size: 1.2em; /* Tamaño del texto en los inputs */
+  }
+  
+  /* Estilos para el botón "Guardar cambios" */
+  .btn-primary {
+    display: block;
+    margin: 20px auto; /* Espaciado exterior */
+    background-color: gray; /* Cambiar color de fondo del botón */
+    color: white; /* Cambiar color del texto del botón */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.5em; /* Tamaño del texto */
+    width: 70%; /* Ancho del botón */
+    max-width: 300px; /* Ancho máximo del botón */
+  }
+  
+  /* Estilos para las tarjetas */
+  .card {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em; /* Tamaño del texto en las tarjetas */
+  }
+  
+  /* Estilos para los títulos de las tarjetas */
+  .card-title,
+  .card-text {
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic; /* Estilo de letra */
+    font-size: 1.5em; /* Tamaño del texto */
+  }
+  
